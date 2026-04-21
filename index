@@ -1,1 +1,134 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="UTF-8">
+    <title>България</title>
 
+    <style>
+        body {
+            width: 900px;
+            margin: 20px auto;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+
+        /* HEADER */
+        header {
+            display: flex;
+            align-items: center;
+            padding: 15px;
+            background-color: white;
+            border-radius: 10px 10px 0 0;
+        }
+
+        header img {
+            width: 80px;
+        }
+
+        header h1 {
+            color: #d62612;
+            margin-left: 15px;
+            font-size: 32px;
+        }
+
+        hr {
+            border: none;
+            height: 2px;
+            background-color: #ccc;
+            margin: 0;
+        }
+
+        /* BLOCKS */
+        .block {
+            display: flex;
+            align-items: center;
+            height: 200px;
+            padding: 20px;
+            margin-top: 10px;
+            border-radius: 10px;
+        }
+
+        .block img {
+            margin-right: 15px;
+            width: 150px;
+            border-radius: 10px;
+        }
+
+        .text {
+            text-align: justify;
+        }
+
+        .text h2 {
+            margin-bottom: 10px;
+        }
+
+        /* COLORS */
+        #block1 {
+            background-color: #ffffff;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        #block2 {
+            background-color: #009966;
+            color: white;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+        }
+
+        #block3 {
+            background-color: #d62612;
+            color: white;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+        }
+
+        /* FOOTER */
+        footer {
+            text-align: center;
+            font-size: 24px;
+            font-style: italic;
+            padding: 15px;
+            margin-top: 10px;
+            background-color: white;
+            border-radius: 0 0 10px 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <img src="images/logo.png" alt="Logo">
+    <h1>България</h1>
+</header>
+
+<hr>
+
+<div id="block1" class="block">
+    <img src="images/img1.jpg">
+    <div class="text">
+        <h2>История</h2>
+        <p>Текст от файл...</p>
+    </div>
+</div>
+
+<div id="block2" class="block">
+    <img src="images/img2.jpg">
+    <div class="text">
+        <h2>Природа</h2>
+        <p>Текст от файл...</p>
+    </div>
+</div>
+
+<div id="block3" class="block">
+    <img src="images/img3.jpg">
+    <div class="text">
+        <h2>Култура</h2>
+        <p>Текст от файл...</p>
+    </div>
+</div>
+
+<footer>
+    Източник: вашият текст тук
+</footer>
+
+</body>
+</html>
